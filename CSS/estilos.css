@@ -118,7 +118,7 @@ header{
 
 .foto-mia{
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .foto-mia img{
@@ -170,12 +170,20 @@ header{
         padding-top: 80px;
     }
     .foto-mia{
-       margin-right: 30px; 
+        margin-left: 30px;
+       width: 400px;
 
     }
     .conoceme{
         margin-left: 30px;
         text-align: left;
+    }
+    .conoceme h3{
+        text-align: center;
+    }
+
+    .conoceme p:nth-child(1){
+        text-align: center;
     }
 }
 
@@ -190,6 +198,7 @@ header{
 
     .foto-mia{
         margin-left: 70px;
+        
     }
 }
 
