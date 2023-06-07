@@ -13,11 +13,7 @@ body{
     max-width: 1500px;
     margin: auto;
 }
-@media (max-width:946px){
-    .conoceme{
-        margin: 5px;
-    }
-}
+
 
 /*Header*/
 
@@ -106,6 +102,7 @@ header{
 .sobre-mi{
     padding-bottom: 82px;
     background-color: white;
+    padding-top: 80px;
 }
 
 .sobre-mi > .contenedor{
@@ -119,6 +116,7 @@ header{
 .foto-mia{
     width: 100%;
     max-width: 300px;
+    margin: auto 5%;
 }
 
 .foto-mia img{
@@ -126,7 +124,7 @@ header{
 }
 
 .conoceme{
-    text-align: center;
+    text-align: left;
     padding: 15px 0px;
     max-width: 570px;
 }
@@ -165,33 +163,18 @@ header{
     color: black;
 }
 
-@media all and (min-width:500px){
+@media (max-width:1000px){
     .sobre-mi{
         padding-top: 80px;
     }
-    .foto-mia{
-       margin-right: 30px; 
-
-    }
     .conoceme{
-        margin-left: 30px;
-        text-align: left;
+        text-align: center;
     }
-}
-
-@media (max-width:946px){
     .conoceme h3{
         text-align: center;
     }
-
-    .conoceme p:nth-child(1){
-        text-align: center;
-    }
-
-    .foto-mia{
-        margin-left: 70px;
-    }
 }
+
 
 /*Fin Sobre Mi*/
 
@@ -241,6 +224,8 @@ header{
 .footer-educacion{
     height: 25px;
     text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
 }
 
 .educacion h5{
@@ -333,6 +318,9 @@ header{
 .top-habilidades{
     text-align: center;
     height: 50px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    border-top: 1px solid black;
 }
 
 .top-habilidades h3{
