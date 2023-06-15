@@ -272,6 +272,12 @@ header{
     }
 }
 
+@media (max-width:800px){
+    .educacion .columna{
+        margin: 2%;
+    }
+}
+
 
 /*Fin Seccion de Educación*/
 
@@ -326,6 +332,12 @@ header{
 @media (max-width:1500px){
     .experiencia h3{
         margin: auto;
+    }
+}
+
+@media (max-width:800px){
+    .experiencia .columna{
+        margin: 2%;
     }
 }
 
